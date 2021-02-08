@@ -23,6 +23,35 @@
       padding: 10px;
   }
 
+  /* Overlay Code Block */
+
+  .col-sm {
+    position:relative;
+    display:inline-block;
+  }
+  .col-sm .overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:rgb(0,170,170);
+    opacity:0;
+    transition:opacity 500ms ease-in-out;
+  }
+  .col-sm:hover .overlay{
+    opacity:1;
+  }
+  .overlay span{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+  }
+
+  /* End of Overlay Code Block */
+
 
   footer  .col.d-flex.p-2 {
     justify-content: space-between;
