@@ -5,13 +5,12 @@
 
   .navbar-brand {
       text-transform: uppercase;
-      color: white;
   }
 
   .wrap {
       max-width: 1100px;
       margin: 20px auto;
-      background: lightskyblue;
+      background: lightgreen;
   }
   
   p {
@@ -91,7 +90,10 @@
       margin-right: 5%;
   }
 
+  /* MEDIA QUERIES */
+
   @media (min-width: 1024px) {
+    
     /* Overlay Code Block */
 
   .col-sm {
