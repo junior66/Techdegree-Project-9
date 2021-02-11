@@ -5,6 +5,12 @@
 
   .navbar-brand {
       text-transform: uppercase;
+      font-weight: bolder;
+  }
+
+  .navbar-nav {
+
+    padding: 10px;
   }
 
   .wrap {
@@ -15,6 +21,11 @@
   
   p {
       padding: 10px;
+      font-style: italic;
+  }
+
+  .container-fluid .d-flex {
+    justify-content: space-around;
   }
 
   /* Overlay Code Block */
