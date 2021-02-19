@@ -45,7 +45,7 @@
     opacity: 1;
   }
   
-  .overlay1 span {
+  .overlay1 div {
     position:absolute;
     top: 50%;
     left: 50%;
@@ -55,13 +55,24 @@
 
   /* End of Overlay Code Block */
 
-  .btn-live, .btn-code {
+  .btn-live1, .btn-code1,
+  .btn-live2, .btn-code2,
+  .btn-live2, .btn-code2,
+  .btn-live3, .btn-code3,
+  .btn-live4, .btn-code4,
+  .btn-live5, .btn-code5
+   {
     display: inline-block;
     width: 100px;
     height: 50px;
   }
 
-  .btn-code {
+  .btn-code1,
+  .btn-code2,
+  .btn-code3,
+  .btn-code4,
+  .btn-code5
+   {
     background: lightgreen;
   }
 
