@@ -55,23 +55,14 @@
 
   /* End of Overlay Code Block */
 
-  .btn-live1, .btn-code1,
-  .btn-live2, .btn-code2,
-  .btn-live2, .btn-code2,
-  .btn-live3, .btn-code3,
-  .btn-live4, .btn-code4,
-  .btn-live5, .btn-code5
+  .btn-live, .btn-code
    {
     display: inline-block;
     width: 100px;
     height: 50px;
   }
 
-  .btn-code1,
-  .btn-code2,
-  .btn-code3,
-  .btn-code4,
-  .btn-code5
+  .btn-code
    {
     background: lightgreen;
   }
