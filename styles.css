@@ -55,16 +55,21 @@
 
   /* End of Overlay Code Block */
 
-  .btn-live, .btn-code
-   {
+  .btn-live, .btn-code {
     display: inline-block;
     width: 100px;
     height: 50px;
+    text-align: center;
+    padding: 10px;
   }
 
   .btn-code
    {
     background: lightgreen;
+  }
+
+  .btn-live {
+    background: lightgrey;
   }
 
 
@@ -73,7 +78,7 @@
   }
 
   .twitter, .linkedin, .email, .github {
-      width: 15%;
+      width: 10%;
       padding-top: 10%;
       margin-right: 5%;
   }
