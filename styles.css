@@ -1,4 +1,5 @@
 
+
 #main_nav {
     width: initial;
   }
@@ -11,12 +12,6 @@
   .navbar-nav {
 
     padding: 10px;
-  }
-
-  .wrap {
-      max-width: 1100px;
-      margin: 20px auto;
-      background: lightgreen;
   }
   
   p {
@@ -38,7 +33,7 @@
 
   .col-sm .overlay1 {
     position:absolute;
-    top:0;
+    top: 0;
     width:100%;
     height: 100%;
     background:rgb(0,170,170);
@@ -51,6 +46,8 @@
     left: 50%;
     transform:translate(-50%,-50%);
     color:#fff;
+    width: 100%;
+    margin-left: 10px;
   }
 
   /* End of Overlay Code Block */
@@ -58,10 +55,12 @@
   .btn-live, .btn-code {
     display: inline-block;
     width: 100px;
-    height: 50px;
+    height: 25px;
     text-align: center;
-    padding: 10px;
+    /* padding: 10px; */
   }
+
+
 
   .btn-code
    {
@@ -78,8 +77,8 @@
   }
 
   .twitter, .linkedin, .email, .github {
-      width: 10%;
-      padding-top: 10%;
+      width: 15%;
+      padding-top: 30%;
       margin-right: 5%;
   }
 
@@ -103,6 +102,29 @@
   }
 
   /* MEDIA QUERIES */
+
+  @media (min-width: 320px) {
+    .footer-name {
+      display: none;
+    }
+
+    .social-media {
+      margin: auto;
+    }
+
+    .wrap {
+      margin: 0;
+      background: lightgreen;
+    }
+  }
+
+  @media (min-width: 768px) {
+    
+    .overlay1 div {
+      font-size: 14px;
+    }
+  }
+
 
   @media (min-width: 1024px) {
     
@@ -150,7 +172,7 @@
     opacity:1;
   }
 
-  .overlay1 span {
+  .overlay1 div {
     position:absolute;
     top: 50%;
     left: 50%;
@@ -162,10 +184,19 @@
 
   }
 
+  .wrap {
+    max-width: 1100px;
+    margin: auto;
+    background: lightgreen;
+}
+
 .widget-container {
   display: flex;
   flex-direction: column;
 }
+
+
+
 
   
 
