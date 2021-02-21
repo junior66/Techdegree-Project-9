@@ -14,4 +14,16 @@ send.addEventListener( 'click' , () => {
     alert( `Message successfully sent to: ${user.value}` )}
     }); 
 
+function changeBackground() {
+
+    let anchor = document.querySelector('.navbar-nav').style.backgroundColor = 'darkgreen';
+    
+
+}
+
+function backToNormal() {
+
+    let anchor = document.querySelector('.navbar-nav').style.backgroundColor = '';
+
+}
 
