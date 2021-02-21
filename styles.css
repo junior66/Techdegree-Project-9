@@ -52,16 +52,6 @@
 
   /* End of Overlay Code Block */
 
-  .btn-live, .btn-code {
-    display: inline-block;
-    width: 100px;
-    height: 25px;
-    text-align: center;
-   
-  }
-
-
-
   .btn-code
    {
     background: lightgreen;
@@ -116,6 +106,13 @@
       margin: 0;
       background: lightgreen;
     }
+
+    .overlay1 div a {
+      width: 100px;
+      height: 25px;
+    }
+    
+  
   }
 
   @media (min-width: 768px) {
@@ -178,6 +175,7 @@
     left: 50%;
     transform:translate(-50%,-50%);
     color:#fff;
+    font-size: 20px;
   }
 
   /* End of Overlay Code Block */
@@ -195,6 +193,13 @@
   flex-direction: column;
 }
 
+.btn-code,
+.btn-live {
+  display: inline-block;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+}
 
 
 
