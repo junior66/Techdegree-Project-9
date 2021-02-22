@@ -12,7 +12,7 @@
   .navbar-nav {
 
     padding: 10px;
-    
+
   }
   
   p {
@@ -68,7 +68,6 @@
     color:#fff;
     width: 100%;
     margin-left: 10px;
-    padding-top: 10px;
   }
 
   /* End of Overlay Code Block */
@@ -128,7 +127,8 @@
       background: lightgreen;
     }
 
-    .overlay1 div a {
+    .overlay1 div a,
+    .overlay3 div a {
       width: 100px;
       height: 25px;
     }
