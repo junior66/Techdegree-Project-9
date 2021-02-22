@@ -12,6 +12,7 @@
   .navbar-nav {
 
     padding: 10px;
+    
   }
   
   p {
@@ -25,16 +26,16 @@
 
   /* Overlay Code Block */
 
-  .col-sm {
+  .col-md {
     position:relative;
     display:inline-block;
     margin-bottom: 20px;
   }
 
-  .col-sm .overlay1 {
+  .col-md .overlay1 {
     position:absolute;
     top: 0;
-    width:100%;
+    width:93%;
     height: 100%;
     background:rgb(0,170,170);
     opacity: 1;
@@ -48,6 +49,26 @@
     color:#fff;
     width: 100%;
     margin-left: 10px;
+  }
+
+  .col-md .overlay3 {
+    position:absolute;
+    top: 0;
+    width:93%;
+    height: 100%;
+    background:rgb(0,170,170);
+    opacity: 1;
+  }
+  
+  .overlay3 div {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    width: 100%;
+    margin-left: 10px;
+    padding-top: 10px;
   }
 
   /* End of Overlay Code Block */
@@ -127,12 +148,12 @@
     
     /* Overlay Code Block */
 
-  .col-sm {
+  .col-md {
     position:relative;
     display:inline-block;
   }
 
-  .col-sm .overlay {
+  .col-md .overlay {
     position:absolute;
     top:0;
     left:0;
@@ -143,11 +164,11 @@
     transition:opacity 500ms ease-in-out;
   }
 
-  .col-sm:hover .overlay {
+  .col-md:hover .overlay {
     opacity:1;
   }
 
-  .overlay span {
+  .overlay div {
     position:absolute;
     top:50%;
     left:50%;
@@ -155,7 +176,7 @@
     color:#fff;
   }
 
-  .col-sm .overlay1 {
+  .col-md .overlay1 {
     position:absolute;
     top:0;
     width:100%;
@@ -165,7 +186,7 @@
     transition:opacity 500ms ease-in-out;
   }
 
-  .col-sm:hover .overlay1 {
+  .col-md:hover .overlay1 {
     opacity:1;
   }
 
@@ -177,6 +198,31 @@
     color:#fff;
     font-size: 20px;
   }
+
+  .col-md .overlay3 {
+    position:absolute;
+    top:0;
+    width:100%;
+    height:100%;
+    background:rgb(0,170,170);
+    opacity:0;
+    transition:opacity 500ms ease-in-out;
+  }
+
+  .col-md:hover .overlay3 {
+    opacity:1;
+  }
+
+  .overlay3 div {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color:#fff;
+    font-size: 20px;
+  }
+  
+
 
   /* End of Overlay Code Block */
 
