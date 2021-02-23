@@ -51,24 +51,7 @@
     margin-left: 10px;
   }
 
-  .col-md .overlay3 {
-    position:absolute;
-    top: 0;
-    width:93%;
-    height: 100%;
-    background:rgb(0,170,170);
-    opacity: 1;
-  }
   
-  .overlay3 div {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    color:#fff;
-    width: 100%;
-    margin-left: 10px;
-  }
 
   /* End of Overlay Code Block */
 
@@ -127,8 +110,7 @@
       background: lightgreen;
     }
 
-    .overlay1 div a,
-    .overlay3 div a {
+    .overlay1 div a {
       width: 100px;
       height: 25px;
     }
@@ -198,31 +180,6 @@
     color:#fff;
     font-size: 20px;
   }
-
-  .col-md .overlay3 {
-    position:absolute;
-    top:0;
-    width:100%;
-    height:100%;
-    background:rgb(0,170,170);
-    opacity:0;
-    transition:opacity 500ms ease-in-out;
-  }
-
-  .col-md:hover .overlay3 {
-    opacity:1;
-  }
-
-  .overlay3 div {
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform:translate(-50%,-50%);
-    color:#fff;
-    font-size: 20px;
-  }
-  
-
 
   /* End of Overlay Code Block */
 
